@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<hibernate-mapping package="com.hibernate.FirstApp">
+	<class name="User" table="UserInfo">
+		<id name="userId" type="int">
+		<generator class="increment">
+		</generator>
+		</id>
+
+		<property name="userName"></property>
+		<property name="email"></property>
+		<property name="logonLocation"></property>
+
+	</class>
+	
+</hibernate-mapping>
